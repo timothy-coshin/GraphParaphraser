@@ -1,5 +1,4 @@
-# Graph Paraphraser (GP)
-**Discrete Prompt Optimization for Knowledge Graph Question Answering**
+# Discrete Prompt Optimization for Knowledge Graph Question Answering
 
 [![Hugging Face Collection](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Collection-blue)](https://huggingface.co/collections/CoShin/graph-paraphraser-gp)
 [![Paper](https://img.shields.io/badge/Paper-WWW'26-red)](https://doi.org/10.1145/nnnnnnn.nnnnnnn)

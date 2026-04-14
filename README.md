@@ -1,7 +1,7 @@
 # Discrete Prompt Optimization for Knowledge Graph Question Answering
 
 [![Hugging Face Collection](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Collection-blue)](https://huggingface.co/collections/CoShin/graph-paraphraser-gp)
-[![Paper](https://img.shields.io/badge/Paper-WWW'26-red)](https://doi.org/10.1145/nnnnnnn.nnnnnnn)
+[![Paper](https://img.shields.io/badge/Paper-WWW'26-red)](https://dl.acm.org/doi/abs/10.1145/3774904.3792857)
 
 Official repository for **Graph Paraphraser (GP)**, introduced in:
 
@@ -125,8 +125,23 @@ def answer_prompting(question, hint):
 
 ## 7. Citation
 
-The paper link, DOI, and official citation information will be released shortly
-and will be updated in this repository once they become publicly available.
+@inproceedings{10.1145/3774904.3792857,
+author = {Kim, Wooyoung and Jung, Haemin and Kim, Byeongjin and Kwon, Suhyeon and Kim, Wooju},
+title = {Graph Discrete Prompt Optimization for Knowledge Graph Question Answering},
+year = {2026},
+isbn = {9798400723070},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3774904.3792857},
+doi = {10.1145/3774904.3792857},
+abstract = {Integrating structured Knowledge Graphs (KGs) with black-box Large Language Models (LLMs) lacking fine-tuning access remains a persistent challenge. This paper introduces Graph Paraphraser (GP), a framework that reframes graph-to-text conversion as a discrete prompt optimization problem. GP learns to paraphrase KG data into optimal prompts by directly using the Solver's correctness feedback as a reward signal. GP operates in two phases: Exploration, generating and labeling prompt candidates, and Exploitation, learning the preference-aligned policy. On three KGQA benchmarks (SimQ, WebQSP, Mintaka), GP consistently outperforms rule-based and standard verbalization baselines. Notably, GP demonstrates exceptional generalization, maintaining high performance not only when the Solver is swapped with a new, unseen model but also when transferred to unseen datasets without any re-optimization. These findings highlight discrete prompt optimization as an effective and general mechanism for integrating structured knowledge into black-box LLM reasoning. Our models and datasets are available at https://github.com/timothy-coshin/GraphParaphraser.},
+booktitle = {Proceedings of the ACM Web Conference 2026},
+pages = {8353–8356},
+numpages = {4},
+keywords = {knowledge graph question answering, graph-to-text, prompt optimization, large language models},
+location = {United Arab Emirates},
+series = {WWW '26}
+}
 
 ---
 
